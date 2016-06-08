@@ -12,7 +12,7 @@ from httplib import HTTPConnection
 # Post message to the messages API on the heroku app
 #
 def send(message):
-    conn = HTTPConnection('your_app.herokuapp.com')
+    conn = HTTPConnection('troposparktext.herokuapp.com')
     conn.request('POST', '/messages', body=message)
 
 ##
