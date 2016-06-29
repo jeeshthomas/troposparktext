@@ -62,4 +62,4 @@ def _(request):
     return Response(json.dumps(response), content_type='application/json')
 
 
-run_itty(**ITTY)
+run_itty()
